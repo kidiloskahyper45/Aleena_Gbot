@@ -89,7 +89,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💾 DEV", callback_data="source_"),
+            text="💾 SOURCE", callback_data="source_"),
         InlineKeyboardButton(
             text="👥 SUPPORT", url="https://t.me/unitedbotsupport"
         ),
@@ -382,7 +382,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *Aleena* You can find my repo here
-                 \nHere is the [REPO](https://github.com/Zyruz-ramu/Aleena_Gbot.git) .""",
+                 \nHere is the [SOURCE](https://github.com/Zyruz-ramu/Aleena_Gbot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
