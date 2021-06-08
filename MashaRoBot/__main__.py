@@ -381,8 +381,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Aleena* THIS BOT CURRENTLY A CLOSED SOURCE CONATCT DEV FOR REPO
-                 \nHere is the [DEV](https://t.me/esto_420) .""",
+            text=""" Hi..🤗 I'm *Aleena* You can find my repo here
+                 \nHere is the [REPO](https://github.com/Zyruz-ramu/Aleena_Gbot.git) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
@@ -629,7 +629,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != 1870601987 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
