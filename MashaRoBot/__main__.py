@@ -381,8 +381,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Aleena* You can find my repo here
-                 \nHere is the [SOURCE](https://github.com/Zyruz-ramu/Aleena_Gbot) .""",
+            text=""" Hi..🤗 I'm *Aleena* You can find my Creators here
+                 \nHere is the [DEVS](https://t.me/tubots) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
