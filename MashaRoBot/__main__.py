@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`*Hellow My name is*` *Aleena*
+`*Hellow My name is*` *Aleena* ("https://telegra.ph/file/41868e9806f153966b89f.jpg")
 `*I'm here to help you to make your group managment task easier! TAP` *Commands* `Use buttons given below to know more about me.*` 
 """
 
@@ -113,11 +113,6 @@ DATA_EXPORT = []
 CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
-START_IMG = os.environ.get('START_IMG', None)
-if START_IMG is None:
-    img = "https://telegra.ph/file/41868e9806f153966b89f.jpg"
-else:
-  img = START_IMG 
 
 for module_name in ALL_MODULES:
     imported_module = importlib.import_module("MashaRoBot.modules." + module_name)
