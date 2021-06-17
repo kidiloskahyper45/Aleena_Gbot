@@ -113,6 +113,12 @@ DATA_EXPORT = []
 CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
+START_IMG = os.environ.get('START_IMG', None)
+if START_IMG is None:
+    img = "https://telegra.ph/file/41868e9806f153966b89f.jpg"
+else:
+  img = START_IMG 
+
 for module_name in ALL_MODULES:
     imported_module = importlib.import_module("MashaRoBot.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
