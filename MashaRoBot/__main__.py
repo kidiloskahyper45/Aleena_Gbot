@@ -84,7 +84,6 @@ buttons = [
             text="ADD ME", url="t.me/Aleena_Gbot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ABOUT", callback_data="Masha_"),
         InlineKeyboardButton(text="COMMANDS", callback_data="help_back"),
     ],
     [
