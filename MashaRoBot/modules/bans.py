@@ -407,6 +407,8 @@ __help__ = """
  🚫 /tban <userhandle> x(m/h/d)*:* bans a user for `x` time. (via handle, or reply). `m` = `minutes`, `h` = `hours`, `d` = `days`.
  🚫 /unban <userhandle>*:* unbans a user. (via handle, or reply)
  🚫 /punch <userhandle>*:* Punches a user out of the group, (via handle, or reply)
+ 
+ Get Global Ban Logs of Aleena [Here](https://t.me/AleenaGban)
 """
 
 BAN_HANDLER = CommandHandler(["ban", "sban"], ban)
