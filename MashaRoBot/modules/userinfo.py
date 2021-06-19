@@ -238,10 +238,10 @@ def info(update: Update, context: CallbackContext):
     else:
         return
 
-    rep = message.reply_text("<code>Appraising...</code>", parse_mode=ParseMode.HTML)
+    rep = message.reply_text("<code>Collecting info...</code>", parse_mode=ParseMode.HTML)
 
     text = (
-        f"╒═══「<b> Appraisal results:</b> 」\n"
+        f"╒═══「<b> Info results🌐:</b> 」\n"
         f"ID: <code>{user.id}</code>\n"
         f"First Name: {html.escape(user.first_name)}"
     )
@@ -287,10 +287,10 @@ def info(update: Update, context: CallbackContext):
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\n\nThe Disaster level of this person is 'God'."
+        text += "\n\nThe Disaster level of this person is '⚡️GOD⚡️'."
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\nThis user is member of 'Hero Association'."
+        text += "\n\nThis user is member of 'Hero Association⚡️'."
         disaster_level_present = True
     elif user.id in DRAGONS:
         text += "\n\nThe Disaster level of this person is 'Dragon'."
@@ -306,7 +306,7 @@ def info(update: Update, context: CallbackContext):
         disaster_level_present = True
 
     if disaster_level_present:
-        text += ' [<a href="https://t.me/OnePunchUpdates/155">?</a>]'.format(
+        text += ' [<a href="https://t.me/aleena_botlog/14">?</a>]'.format(
             bot.username
         )
 
@@ -422,7 +422,7 @@ def set_about_me(update: Update, context: CallbackContext):
 @run_async
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "<b>📊 Current stats:</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
+    stats = "<b> Aleena's Current stats:</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
     update.effective_message.reply_text(result, parse_mode=ParseMode.HTML)
 
