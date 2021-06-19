@@ -643,7 +643,7 @@ __help__ = """
 *Note:* Night Mode chats get Automatically closed at 12 am(IST)
 and Automatically openned at 6 am(IST) To Prevent Night Spams.
 
-Report Errors [Here](https://t.me/unitedbotsupport.
+Report Errors [Here](https://t.me/unitedbotsupport).
 
 """
 
