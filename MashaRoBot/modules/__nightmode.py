@@ -129,7 +129,7 @@ async def job_close():
     for pro in chats:
         try:
             await tbot.send_message(
-              int(pro.chat_id), "12:00 Am, Group Is Closing Till 6 Am. Night Mode Started ! \n**Powered By Evlie**"
+              int(pro.chat_id), "12:00 Am, Group Is Closing Till 6 Am. Night Mode Started. Users won't be able until the session ends ! \n**Powered By @tubots**"
             )
             await tbot(
             functions.messages.EditChatDefaultBannedRightsRequest(
@@ -176,4 +176,4 @@ and Automatically openned at 6am(IST) To Prevent Night Spams.
 KINDLY NOTE THAT THE BOT IS GIVEN THE SPECIFIC RIGHTS TO DO THIS.
 """
 
-__mod_name__ = "N MODE"
+__mod_name__ = "⚡️N MODE"
