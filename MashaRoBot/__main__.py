@@ -76,7 +76,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 [Aleena](https://telegra.ph/file/41868e9806f153966b89f.jpg)
 *Group Manager Bot* ! TAP *Commands* for Loaded Modules.
-*User Friendly Bot to make admin task easier*
+*User Friendly Bot to make admin task effortless*
 """
 
 buttons = [
