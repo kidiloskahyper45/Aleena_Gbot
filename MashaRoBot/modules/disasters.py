@@ -552,37 +552,37 @@ def devlist(update: Update, context: CallbackContext):
 
 __help__ = f"""
 *⚠️ Notice:*
-Commands listed here only work for users with special access are mainly used for troubleshooting, debugging purposes.
+Commands listed here only work for users with dev access are mainly used for troubleshooting, debugging purposes.
 Group admins/group owners do not need these commands. 
 
 *List all special users:*
- ❍ /dragons*:* Lists all Dragon disasters
- ❍ /demons*:* Lists all Demon disasters
- ❍ /tigers*:* Lists all Tigers disasters
- ❍ /wolves*:* Lists all Wolf disasters
- ❍ /heroes*:* Lists all Hero Association members
- ❍ /adddragon*:* Adds a user to Dragon
- ❍ /adddemon*:* Adds a user to Demon
- ❍ /addtiger*:* Adds a user to Tiger
- ❍ /addwolf*:* Adds a user to Wolf
- ❍ `Add dev doesnt exist, devs should know how to add themselves`
+🔥 /dragons*:* Lists all Dragon disasters users
+🔥 /demons*:* Lists all Demon disasters users
+🔥 /tigers*:* Lists all Tigers disasters users
+🔥 /wolves*:* Lists all Wolf disasters users
+🔥 /heroes*:* Lists all Hero Association members
+🔥 /adddragon*:* Adds a user to Dragon
+🔥 /adddemon*:* Adds a user to Demon
+🔥 /addtiger*:* Adds a user to Tiger
+🔥 /addwolf*:* Adds a user to Wolf
+  *Dev can't be added*
 
 *Ping:*
- ❍ /ping*:* gets ping time of bot to telegram server
- ❍ /pingall*:* gets all listed ping times
+  /ping*:* gets ping time of bot to telegram server
+  /pingall*:* gets all listed ping times
 
-*Broadcast: (Bot owner only)*
+*🗣️Broadcast: (Bot owner only)*
 *Note:* This supports basic markdown
- ❍ /broadcastall*:* Broadcasts everywhere
- ❍ /broadcastusers*:* Broadcasts too all users
- ❍ /broadcastgroups*:* Broadcasts too all groups
+  /broadcastall*:* Broadcasts everywhere
+  /broadcastusers*:* Broadcasts too all users
+  /broadcastgroups*:* Broadcasts too all groups
 
 *Groups Info:*
- ❍ /groups*:* List the groups with Name, ID, members count as a txt
- ❍ /leave <ID>*:* Leave the group, ID must have hyphen
- ❍ /stats*:* Shows overall bot stats
- ❍ /getchats*:* Gets a list of group names the user has been seen in. Bot owner only
- ❍ /ginfo username/link/ID*:* Pulls info panel for entire group
+  /groups*:* List the groups with Name, ID, members count as a txt
+  /leave <ID>*:* Leave the group, ID must have hyphen
+  /stats*:* Shows overall bot stats
+  /getchats*:* Gets a list of group names the user has been seen in. Bot owner only
+  /ginfo username/link/ID*:* Pulls info panel for entire group
 
 *Access control:* 
  ❍ /ignore*:* Blacklists a user from using the bot entirely
