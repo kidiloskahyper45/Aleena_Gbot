@@ -640,10 +640,8 @@ __help__ = """
  👮‍♂️ /admincache*:* force refresh the admins list
  👮‍♂️ /antispam <on/off/yes/no>*:* Will toggle our antispam tech or return your current settings.
 
-*Note:* Night Mode chats get Automatically closed at 12 am(IST)
-and Automatically openned at 6 am(IST) To Prevent Night Spams.
 
-Report Errors:[SUPPORT](buttonurl:https://t.me/unitedbotsupport).
+Report Errors: [SUPPORT](buttonurl:https://t.me/unitedbotsupport) .
 
 """
 
