@@ -179,6 +179,10 @@ __help__ = """
 > /del var <var>*:* Delete existing variable.
 > /logs Get heroku dyno logs.
 
+*NightMode*
+Aleena can protect your group from NSFW senders
+ ❍ /addnsfw*:* Adds The Group to nsfw Watch List
+ ❍ /rmnsfw*:* Removes The Group From nsfw Watch List
 """
 
 __mod_name__ = "ACCESS"
