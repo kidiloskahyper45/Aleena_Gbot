@@ -98,7 +98,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-* AVAILABLE MODULES. Facing errors on any module Report [Here](https://t.me/unitedbotsupport)*"""
+* AVAILABLE MODULES. Facing errors on any module Report Here : @tubots*"""
 
 
 DONATE_STRING = """*No need.. I'm rich*"""
