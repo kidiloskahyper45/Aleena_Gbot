@@ -637,15 +637,13 @@ __help__ = """
  👮‍ /promote*:* promotes the user
  👮‍♂️ /demote*:* demotes the user
  👮‍♂️ /title <title here>*:* sets a custom title for an admin that the bot promoted
- 
- <b>Admin</b>
  👮‍♂️ /admincache*:* force refresh the admins list
  👮‍♂️ /antispam <on/off/yes/no>*:* Will toggle our antispam tech or return your current settings.
 
 *Note:* Night Mode chats get Automatically closed at 12 am(IST)
 and Automatically openned at 6 am(IST) To Prevent Night Spams.
 
-Report Errors [Here](https://t.me/unitedbotsupport).
+Report Errors:[SUPPORT](buttonurl:https://t.me/unitedbotsupport).
 
 """
 
