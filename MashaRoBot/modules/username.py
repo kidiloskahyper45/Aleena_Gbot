@@ -19,9 +19,9 @@
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl import functions, types
 
-from DaisyX.services.events import register as Daisy
-from DaisyX.services.telethon import tbot
-from DaisyX.services.telethonuserbot import ubot
+from MasharoBot.services.events import register as Daisy
+from MasharoBot.services.telethon import tbot
+from MasharoBot.services.telethonuserbot import ubot
 
 
 async def is_register_admin(chat, user):
@@ -90,7 +90,7 @@ async def _(event):
 
         return
 
-    lol = await event.reply("```Processing```")
+    lol = await event.reply("```Getting info of user from telegram Database```")
 
     async with ubot.conversation(chat) as conv:
 
