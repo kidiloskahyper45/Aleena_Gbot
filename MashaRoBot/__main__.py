@@ -82,16 +82,16 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="ADD ME", url="t.me/Aleena_Gbot?startgroup=true"),
+            text="「 ADD ME 」", url="t.me/Aleena_Gbot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="COMMANDS", callback_data="help_back"),
+        InlineKeyboardButton(text="「 COMMANDS 」", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="DEVS", callback_data="source_"),
+            text="「 DEVS 」", callback_data="source_"),
         InlineKeyboardButton(
-            text="CHAT", url="https://t.me/unitedbotsupport"
+            text="「 CHAT 」", url="https://t.me/unitedbotsupport"
         ),
     ],
 ]
