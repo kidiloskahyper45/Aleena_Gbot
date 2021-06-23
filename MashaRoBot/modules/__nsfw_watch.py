@@ -113,6 +113,10 @@ async def ws(event):
 __help__ = """
 *Special Commands for Aleena's Creator/ Dev / Owner*
 
+*Phone Number Info*
+/phone ( Phone No ) : format +91X0X0X0X0X0
+Use with Country code
+
 *Groups Info:*
   /groups*:* List the groups with Name, ID, members count as a txt
   /leave <ID>*:* Leave the group, ID must have hyphen
