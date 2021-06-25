@@ -385,7 +385,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
 - Every cmds/texts Shared to bot are 100% Secure.
 - We do not share any UserData of Group Info.
 - We Respect your Privacy.
-- Do not misuse bot illigal activities.
+- Do not misuse bot for illigal activities.
 - All rights reserved™️.
  *Dev*
 > @tubots
