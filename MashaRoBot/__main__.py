@@ -81,15 +81,11 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(
-            text="「 ADD ME 」", url="t.me/Aleena_Gbot?startgroup=true"),
-    ],
-    [
         InlineKeyboardButton(text="「 COMMANDS 」", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="「 DEVS 」", callback_data="source_"),
+            text="「 T & C 」", callback_data="source_"),
         InlineKeyboardButton(
             text="「 CHAT 」", url="https://t.me/unitedbotsupport"
         ),
@@ -382,8 +378,24 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Aleena* You can find my Creators here
-                 \nHere is the [DEVS](https://t.me/tubots) .""",
+            text=""" Hi..🤗 I'm *Aleena*
+            *This are the T & C Applied on This Bot
+            
+            - We do not store any kind of Personal Information.
+            - Every cmds/texts Shared to bot are 100% Secure.
+            - We do not share any UserData of Group Info.
+            - We Respect your Privacy.
+            - Do not misuse bot illigal activities.
+            - All rights reserved™️.
+            
+            *Devs*
+            
+            > @tubots
+            -----------
+            
+            Terms and Conditions are Applied©
+      
+                 \nHere is the [Privacy and Policy](https://telegram.org/privacy) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
