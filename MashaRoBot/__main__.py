@@ -379,7 +379,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *Aleena*
-            *This are the T & C Applied on This Bot
+            *This are the T & C Applied on This Bot*
             
             - We do not store any kind of Personal Information.
             - Every cmds/texts Shared to bot are 100% Secure.
@@ -387,15 +387,11 @@ def Source_about_callback(update: Update, context: CallbackContext):
             - We Respect your Privacy.
             - Do not misuse bot illigal activities.
             - All rights reserved™️.
-            
-            *Devs*
-            
+             *Dev*
             > @tubots
             -----------
-            
             Terms and Conditions are Applied©
-      
-                 \nHere is the [Privacy and Policy](https://telegram.org/privacy) .""",
+          \nHere is the [Privacy and Policy](https://telegram.org/privacy) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
