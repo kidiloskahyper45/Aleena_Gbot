@@ -113,8 +113,7 @@ async def ws(event):
 __help__ = """
 *Special Commands for Aleena's Creator/ Dev / Owner*
 
-*Name history Info*
-/namehistory : reply to a user or Id number
+
 
 *Groups Info:*
   /groups*:* List the groups with Name, ID, members count as a txt
