@@ -10,4 +10,4 @@ NOTE : BOT SHOULD HAVE RIGHTS TO EDIT GROUP INFO
   /setdescription <description>*:* Sets new chat description in group.
 """
 
-__mod_name__ = "GROUP"
+__mod_name__ = "Group"
