@@ -80,6 +80,10 @@ PM_START_TEXT = """
 """
 
 buttons = [
+     [
+        InlineKeyboardButton(
+            text="ADD ME", url=""),
+    ],
     [
         InlineKeyboardButton(text="「 COMMANDS 」", callback_data="help_back"),
     ],
