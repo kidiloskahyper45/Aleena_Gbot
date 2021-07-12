@@ -87,16 +87,16 @@ PM_START_TEXT = """ʜᴇʏ ɪᴍ ᴀʟᴇᴇɴᴀ..
 buttons = [
      [
         InlineKeyboardButton(
-            text="「 GitHub 」", url="https://github.com/zyruzX/AleenaGbot.git"),
+            text="GitHub", url="https://github.com/zyruzX/AleenaGbot.git"),
     ],
     [
-        InlineKeyboardButton(text="「 COMMANDS 」", callback_data="help_back"),
+        InlineKeyboardButton(text="COMMANDS", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="「 T & C 」", callback_data="source_"),
+            text="T & C", callback_data="source_"),
         InlineKeyboardButton(
-            text="「 CHAT 」", url="https://t.me/unitedbotsupport"
+            text="CHAT", url="https://t.me/unitedbotsupport"
         ),
     ],
 ]
