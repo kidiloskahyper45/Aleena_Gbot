@@ -73,15 +73,18 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ʜᴇʏ ɪᴍ ᴀʟᴇᴇɴᴀ..
-ᴀ ᴀᴅᴠᴀɴᴄᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜ @ᴛᴜʙᴏᴛꜱ !~
-ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ꜱᴜᴘᴇʀɢʀᴏᴜᴘꜱ ᴇᴀꜱʏ ᴀɴᴅ ᴇꜰꜰᴏʀᴛʟᴇꜱꜱ!
-------------------------------
-ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴍʏ ᴜᴘᴅᴀᴛᴇꜱ ʜᴇʀᴇ
-          - >  @tubots 
-ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴡɪᴛʜ
-          - >  @psycho_bots 
-ᴜꜱᴇ /help ᴏʀ ᴄᴏᴍᴍᴀɴᴅꜱ ʙᴜᴛᴛᴏɴ ꜰᴏʀ ʟᴏᴀᴅᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.
+PM_START_TEXT = """hey Im Aleena 
+A Advanced Group management Bot By @tubots 
+I'm here to help you to
+manage your supergroups 
+with some extra features..
+-----------------------------------------
+Get Updates here - > @tubots
+
+connected with   - > @psycho_Bots
+
+Use /help for loaded modules.
+
 """
 
 buttons = [
