@@ -73,18 +73,9 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """hey Im Aleena 
-A Advanced Group management Bot By @tubots 
-I'm here to help you to
-manage your supergroups 
-with some extra features..
------------------------------------------
-Get Updates here - > @tubots
-
-connected with   - > @psycho_Bots
-
-Use /help for loaded modules.
-
+PM_START_TEXT = """
+`Hellow My name is` *Aleena*
+`I'm here to help you to make your group managment task easier! TAP` *Commands* `Use buttons given below to know more about me.` 
 """
 
 buttons = [
