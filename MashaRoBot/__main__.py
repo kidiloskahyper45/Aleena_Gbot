@@ -82,7 +82,7 @@ PM_START_TEXT = """
 buttons = [
      [
         InlineKeyboardButton(
-            text="GitHub", url="https://github.com/zyruzX/AleenaGbot.git"),
+            text="「 GitHub 」", url="https://github.com/zyruzX/AleenaGbot.git"),
     ],
     [
         InlineKeyboardButton(text="「 COMMANDS 」", callback_data="help_back"),
