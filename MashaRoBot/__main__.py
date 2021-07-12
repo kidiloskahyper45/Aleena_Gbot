@@ -74,9 +74,26 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-[Aleena](https://telegra.ph/file/41868e9806f153966b89f.jpg)
-*Group Manager Bot* ! TAP *Commands* for Loaded Modules.
-*User Friendly Bot to make admin task effortless*
+『ʜᴇʏ ɪᴍ ᴀʟᴇᴇɴᴀ..』
+ᴀ ᴀᴅᴠᴀɴᴄᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜ @ᴛᴜʙᴏᴛꜱ !~
+ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ꜱᴜᴘᴇʀɢʀᴏᴜᴘꜱ ᴇᴀꜱʏ ᴀɴᴅ ᴇꜰꜰᴏʀᴛʟᴇꜱꜱ!
+ᴇxᴛʀᴀꜱ:-
+ʀᴇꜱᴛʀɪᴄᴛ ᴜꜱᴇʀꜱ.
+ɴɪɢᴛʜ ᴍᴏᴅᴇ ꜰᴇᴀᴛᴜʀᴇ.
+ꜰᴏʀᴄᴇ ꜱᴜʙ.
+ᴄᴍᴅ'ꜱ ᴄʟᴇᴀɴᴇʀ.
+ꜰʟᴏᴏᴅ ᴄᴏɴᴛʀᴏʟ ꜱʏꜱᴛᴇᴍ.
+ᴀɴ ɪɴʟɪɴᴇ ᴍᴇɴᴜ.
+ᴍᴀɴʏ ᴍᴏʀᴇ
+------------------------------
+
+ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴍʏ ᴜᴘᴅᴀᴛᴇꜱ ʜᴇʀᴇ
+          - > 『 @tubots 』
+
+ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴡɪᴛʜ
+          - > 『 @psycho_bots 』
+
+ᴜꜱᴇ /help ᴏʀ ᴄᴏᴍᴍᴀɴᴅꜱ ʙᴜᴛᴛᴏɴ ꜰᴏʀ ʟᴏᴀᴅᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.
 """
 
 buttons = [
