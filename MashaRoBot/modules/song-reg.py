@@ -128,6 +128,6 @@ __help__ = """
  Reply to a short video to recognice the audio and download to telegram cloud database
 """
 
-__mod_name__ = """FIND MP3""" 
+__mod_name__ = "FIND MP3"
 
 
