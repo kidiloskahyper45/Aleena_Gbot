@@ -1,6 +1,6 @@
-#code by @nousername_psycho
+
 #-----------------------------------------req
-from cinderella import pbot as app
+from MashaRoBot import pbot as app
 from pyrogram import filters
 from shazamio import Shazam
 import youtube_dl
@@ -44,11 +44,11 @@ async def sonf_REG(client, message):
         artist = item.get("subtitle")
         query = (f"{title} - {artist}")
     except Exception: 
-        await m.edit("Sorry, failed to find your song ☹️")
+        await m.edit("Sorry, failed to find your song")
         return
     
     #------------------------------------------------------+ new func
-    await m.edit('Trying to download 😎')
+    await m.edit('Trying to upload')
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = []
@@ -123,9 +123,11 @@ async def sonf_REG(client, message):
 
 
 __help__ = """
- X /find -  reply to a short video to find song. \ncode by @nousername_psycho 
+ CMD /find -  reply to a short video to find song.
+ 
+ Reply to a short video to recognice the audio and download to telegram cloud database
 """
 
-__mod_name__ = "SHAZAM"
+__mod_name__ = """FIND MP3""" 
 
 
