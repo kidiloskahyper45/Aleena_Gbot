@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʏ ɪᴍ ᴀʟᴇᴇɴᴀ..  
+ʜᴇʏ ɪᴍ Ƭ Ξ Z Z Λ..  
 ᴀ ᴀᴅᴠᴀɴᴄᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜ ᴛᴜʙᴏᴛꜱ.
 ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ꜱᴜᴘᴇʀɢʀᴏᴜᴘꜱ ᴇᴀꜱʏ ᴀɴᴅ ᴇꜰꜰᴏʀᴛʟᴇꜱꜱ.
 """
 buttons = [
      [
         InlineKeyboardButton(
-            text="GitHub", url="https://github.com/zyruzX/AleenaGbot.git"),
+            text="GitHub", url="https://github.com/kidiloskahyper45/AleenaGbot.git"),
     ],
     [
         InlineKeyboardButton(text="COMMANDS", callback_data="help_back"),
@@ -90,7 +90,7 @@ buttons = [
         InlineKeyboardButton(
             text="T & C", callback_data="source_"),
         InlineKeyboardButton(
-            text="CHAT", url="https://t.me/unitedbotsupport"
+            text="DEV", url="https://t.me/rosebakthan"
         ),
     ],
 ]
@@ -381,8 +381,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Aleena* 
-                 \nHere is the [TERMS AND CONDITIONS](https://telegra.ph/Aleena-06-26) .""",
+            text=""" Hi..🤗 I'm *Ƭ Ξ Z Z Λ* 
+                 \nHere is the [TERMS AND CONDITIONS](https://telegra.ph/%C6%AC-%CE%9E-Z-Z-%CE%9B-07-14) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
